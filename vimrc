@@ -1,3 +1,9 @@
+" 백스페이스 강화
+set backspace=indent,eol,start
+
+set ruler               " show line and column number
+set showcmd             " show (partial) command in status line
+
 syntax enable
 set nu
 set autoindent
@@ -25,4 +31,7 @@ endif
 if has("syntax")
  syntax on
 endif
+
+" Vim Color schema
+colorscheme zellner
 
